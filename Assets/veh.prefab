@@ -222,6 +222,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1990106974990620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4132181853887300}
+  - component: {fileID: 114373903078521276}
+  m_Layer: 9
+  m_Name: Thruster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &4018110135826358
 Transform:
   m_ObjectHideFlags: 1
@@ -242,7 +258,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1765890879508516}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.0557369, y: 2.567, z: -1.1082834}
+  m_LocalPosition: {x: 83.8, y: 25, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 4608700837482442}
@@ -257,9 +273,23 @@ Transform:
   - {fileID: 4018110135826358}
   - {fileID: 4276560822934478}
   - {fileID: 4888142083537606}
+  - {fileID: 4132181853887300}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4132181853887300
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1990106974990620}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 2.22, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4052273468409088}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4170638822156020
 Transform:
   m_ObjectHideFlags: 1
@@ -679,6 +709,21 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 1335
+--- !u!114 &114373903078521276
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1990106974990620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc8091a5b8f8de49944209e01933b7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  accel: 10
+  baseAccel: 0
+  range: 5
+  maxSpeed: 1
 --- !u!114 &114582605684131020
 MonoBehaviour:
   m_ObjectHideFlags: 1
