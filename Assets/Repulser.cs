@@ -14,6 +14,8 @@ public class Repulser : MonoBehaviour {
     public AnimationCurve powerCurve;
     public LayerMask mask;
     Rigidbody rb;
+    public Vector3 lastNormal;
+    public bool hitLastFrame;
 	// Use this for initialization
 	void Start () {
         baseAccel = accel;
@@ -32,8 +34,12 @@ public class Repulser : MonoBehaviour {
                 hitPos = hit.point;
                 Debug.DrawLine(transform.position, hitPos);
                 rb.AddForceAtPosition(-transform.up*accel*-1* powerCurve.Evaluate((1-(hit.distance / range) * noise)), transform.position);
+                lastNormal = hit.normal;
+                hitLastFrame = true;
             } else
             {
+                hitLastFrame = false;
+                
                 hitPos = new Vector3(999999,99999,9999);
             }
         //}
