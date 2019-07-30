@@ -18,6 +18,6 @@ public class Thruster : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-            rb.AddForceAtPosition(-transform.up * accel * -1, transform.position);
+            rb.AddForceAtPosition(-transform.forward * accel * -1, transform.position);
     }
 }
