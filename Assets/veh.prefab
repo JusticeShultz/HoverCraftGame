@@ -28,38 +28,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1139887731961454
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4993700686477542}
-  - component: {fileID: 114582605684131020}
-  m_Layer: 9
-  m_Name: frontLeft
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1356334815188914
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4277868696029994}
-  - component: {fileID: 114352797454174640}
-  m_Layer: 9
-  m_Name: frontRight
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1357156883090180
 GameObject:
   m_ObjectHideFlags: 0
@@ -249,7 +217,7 @@ Transform:
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 4052273468409088}
-  m_RootOrder: 9
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4052273468409088
 Transform:
@@ -257,8 +225,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1765890879508516}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 83.8, y: 25, z: 0}
+  m_LocalRotation: {x: -0.19256227, y: 0.2253529, z: -0.32450983, w: 0.8982367}
+  m_LocalPosition: {x: -0.095401414, y: 10.876408, z: 0.36661613}
   m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children:
   - {fileID: 4608700837482442}
@@ -266,17 +234,15 @@ Transform:
   - {fileID: 4532414982396600}
   - {fileID: 4408370759236832}
   - {fileID: 4721321021341140}
-  - {fileID: 4993700686477542}
-  - {fileID: 4277868696029994}
-  - {fileID: 4589396272342566}
   - {fileID: 4170638822156020}
   - {fileID: 4018110135826358}
   - {fileID: 4276560822934478}
   - {fileID: 4888142083537606}
   - {fileID: 4132181853887300}
+  - {fileID: 4589396272342566}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -11.518001, y: 32.732002, z: -43.120003}
 --- !u!4 &4132181853887300
 Transform:
   m_ObjectHideFlags: 1
@@ -288,7 +254,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4052273468409088}
-  m_RootOrder: 12
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!4 &4170638822156020
 Transform:
@@ -301,7 +267,7 @@ Transform:
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 4052273468409088}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4276560822934478
 Transform:
@@ -314,20 +280,7 @@ Transform:
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 4052273468409088}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4277868696029994
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1356334815188914}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4600002, y: -0.99, z: -5}
-  m_LocalScale: {x: 2.5000002, y: 2.5000007, z: 2.5000002}
-  m_Children: []
-  m_Father: {fileID: 4052273468409088}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4408370759236832
 Transform:
@@ -366,7 +319,7 @@ Transform:
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 4052273468409088}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4608700837482442
 Transform:
@@ -418,20 +371,7 @@ Transform:
   m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_Children: []
   m_Father: {fileID: 4052273468409088}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4993700686477542
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139887731961454}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.46, y: -0.9899998, z: -5}
-  m_LocalScale: {x: 2.4999998, y: 2.5, z: 2.5}
-  m_Children: []
-  m_Father: {fileID: 4052273468409088}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &20581072330395230
 Camera:
@@ -441,8 +381,8 @@ Camera:
   m_GameObject: {fileID: 1068917321978090}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -591,9 +531,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e228975ce22cc94481fb85a2e509920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accel: 30
+  accel: 25
   baseAccel: 0
-  range: 1
+  range: 1.75
   maxSpeed: 10
   baseRange: 0
   powerCurve:
@@ -634,9 +574,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e228975ce22cc94481fb85a2e509920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accel: 30
+  accel: 25
   baseAccel: 0
-  range: 1
+  range: 1.75
   maxSpeed: 10
   baseRange: 0
   powerCurve:
@@ -666,49 +606,6 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 1335
---- !u!114 &114352797454174640
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1356334815188914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e228975ce22cc94481fb85a2e509920, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  accel: 15
-  baseAccel: 0
-  range: 0
-  maxSpeed: 3
-  baseRange: 0
-  powerCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  mask:
-    serializedVersion: 2
-    m_Bits: 1335
 --- !u!114 &114373903078521276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -724,49 +621,6 @@ MonoBehaviour:
   baseAccel: 0
   range: 5
   maxSpeed: 1
---- !u!114 &114582605684131020
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1139887731961454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e228975ce22cc94481fb85a2e509920, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  accel: 15
-  baseAccel: 0
-  range: 0
-  maxSpeed: 3
-  baseRange: 0
-  powerCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 34
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  mask:
-    serializedVersion: 2
-    m_Bits: 1335
 --- !u!114 &114749786295928750
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -779,13 +633,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frontRepulsers:
-  - {fileID: 114582605684131020}
-  - {fileID: 114352797454174640}
+  - {fileID: 0}
+  - {fileID: 0}
   backRepulsers:
   - {fileID: 114791845119714694}
   - {fileID: 114068677782676002}
-  stability: 1
-  speed: 2
+  stability: 0.9
+  speed: 4
 --- !u!114 &114791845119714694
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -840,9 +694,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e228975ce22cc94481fb85a2e509920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accel: 30
+  accel: 25
   baseAccel: 0
-  range: 1
+  range: 1.75
   maxSpeed: 10
   baseRange: 0
   powerCurve:
@@ -883,9 +737,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e228975ce22cc94481fb85a2e509920, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  accel: 30
+  accel: 25
   baseAccel: 0
-  range: 1
+  range: 1.75
   maxSpeed: 10
   baseRange: 0
   powerCurve:
