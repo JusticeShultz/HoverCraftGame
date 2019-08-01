@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour {
         {
             item.transform.localRotation = Quaternion.AngleAxis(60 * -Input.GetAxis("Horizontal"), Vector3.forward) * Quaternion.AngleAxis(-70 * Input.GetAxis("Vertical"), Vector3.right);
             item.range = item.baseRange + Mathf.Abs(Input.GetAxis("Horizontal"))*8 + Mathf.Abs(Input.GetAxis("Vertical"))*8;
+            item.accel = item.baseAccel * (Mathf.Abs(Input.GetAxis("Horizontal"))+ Mathf.Abs(Input.GetAxis("Vertical")))/2;
             //item.accel = item.baseAccel * (1-Mathf.Max(Input.GetAxis("Vertical"),0));
         }
         //if (Input.GetKeyDown(KeyCode.LeftShift)) rb.AddForce(transform.forward * -1000);
