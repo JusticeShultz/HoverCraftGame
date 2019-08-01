@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class MeshToMeshCollider : MonoBehaviour
 {
 
-    [MenuItem("Mesh/Generate Mesh Collider")]
+    [MenuItem("Tools/Mesh/Generate Mesh Collider")]
     static void MeshGen()
     {
         Transform[] selection = Selection.GetTransforms(SelectionMode.Editable | SelectionMode.ExcludePrefab);
